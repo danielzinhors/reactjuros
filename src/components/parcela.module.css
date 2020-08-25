@@ -1,0 +1,55 @@
+.borderPositiva {
+  border: 1px solid green;
+  border-radius: 5px;
+  width: 145px;
+  height: 70px;
+  margin: 2px;
+  font-size: 12px;
+}
+
+.borderNegativa {
+  border: 1px solid red;
+  border-radius: 5px;
+  width: 140px;
+  height: 70px;
+  margin: 2px;
+  font-size: 12px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1px;
+}
+
+.flexcolum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.corPositiva {
+  color: green;
+}
+
+.corPercJuro {
+  color: blue;
+}
+
+.corNegativa {
+  color: red;
+}
+
+.bordaParc {
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: gray;
+  margin-right: 0.1em;
+  font-size: 22px;
+}
